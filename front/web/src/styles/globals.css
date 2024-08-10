@@ -67,3 +67,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .section  {
+    height: 100dvh;
+
+  }
+  .top-section {
+      height: calc(100dvh - 56px);
+
+  }
+}
